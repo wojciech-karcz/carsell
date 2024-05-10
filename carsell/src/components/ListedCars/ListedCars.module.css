@@ -1,0 +1,23 @@
+.listed-cars {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 200px 100px;
+}
+
+.listed-cars h2 {
+    font-size: 26px;
+}
+
+.listed-cars-wrapper {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px; 
+}
+
+
+.listed-cars-wrapper p {
+    display: flex;
+    justify-content: baseline;
+    gap: 10px;
+}

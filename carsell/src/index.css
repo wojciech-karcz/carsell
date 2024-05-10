@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.close-button {
+  position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    padding: 10px;
+    outline: transparent;
+    border: 3px solid #000;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    padding: none;
+    font-weight: bold;
+    color: #000;
+    transition: .3s;
+}
+
+.close-button:hover {
+  cursor: pointer;
+  border: 3px solid #5555f6;
+  background-color: #fff;
+  color: #5555f6;
+}
+
+.modal-open {
+  overflow-y: hidden;
+}

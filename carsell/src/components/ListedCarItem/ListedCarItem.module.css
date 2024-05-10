@@ -1,0 +1,46 @@
+.car-item {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    border: 2px solid #000;
+    transition: .5s;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+
+.car-item:hover {
+    cursor: pointer;
+    border-color: #5555f6;
+    box-shadow: 2px 2px 0px 0px #5555f6;
+    -webkit-box-shadow: 2px 2px 0px 0px #5555f6;
+    -moz-box-shadow: 4px 2px 0px 0px #5555f6;
+}
+
+.car-item-header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20%;
+    padding: 10px;
+    border-bottom: 3px solid #000;
+}
+
+.car-item-header p {
+    margin-right: 10px;
+}
+
+.car-item-header img {
+    width: 20px;
+    height: 20px;
+}
+
+.car-item-body {
+    height: 80%;
+}
+
+.car-item-body img {
+    width: 100%;
+    height: 100%;
+}

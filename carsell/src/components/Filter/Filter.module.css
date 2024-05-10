@@ -1,0 +1,47 @@
+.filter {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+    border: 2px solid #000;
+}
+
+.filter form {
+    padding: 10px 0;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.filter form * {
+    font-size: 14px;
+    flex: 1;
+}
+
+.filter input, .filter select {
+    background-color: #fff;
+    border: 1px solid #666;
+    outline: none;
+    padding: 8px;
+}
+
+.filter button {
+    transition: .3s;
+    color: #fff;
+    outline: none;
+    background-color: #5555f6;
+    border: 2px solid #5555f6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.filter button:hover {
+    cursor: pointer;
+    color: #5555f6;
+    background-color: #fff;
+}

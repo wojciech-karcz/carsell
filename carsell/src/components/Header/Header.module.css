@@ -1,0 +1,53 @@
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #5555f6;
+    padding: 20px 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    border-bottom: 4px solid #000;
+}
+
+.header h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.header div {
+    font-size: 16px;
+    width: calc(auto + 100px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header div * {
+    margin: 0px 15px;
+}
+
+.header div p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header div button {
+    transition: .3s;
+    padding: 10px;
+    background-color: #fff;
+    color: #5555f6;
+    outline: none;
+    border: 2px solid #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.header div button:hover {
+    cursor: pointer;
+    background-color: #5555f6;
+    color: #fff;
+    border: 2px solid #fff;   
+}
